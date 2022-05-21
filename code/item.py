@@ -32,10 +32,12 @@ class ValueType(IntEnum):
         8: "name_tag",
     }
     
+    @classmethod
     def valueTypeToItem():
-        
+        self.item[self.value]
 
 class Value(Item):
     def __init__(self, ValueType): 
         self.diamondfire = true
         self.item = ValueType.valueTypeToItem()
+        self.valueType = ValueType
