@@ -1,9 +1,6 @@
 # manage blocks
 from enum import IntEnum
 
-from sqlalchemy import true
-
-
 class Item:
     def __init__(self, itemid, isDiamondFire):
         self.item = itemid
@@ -54,13 +51,13 @@ class VariableType(IntEnum):
 
 class Value(Item):
     def __init__(self, ValueType): 
-        self.diamondfire = true
+        self.diamondfire = True
         self.item = ValueType.valueTypeToItem()
         self.valueType = ValueType
 
 class Variable(Value):
     def __init__(self, VariableType):
-        self.diamondfire = true
+        self.diamondfire = True
         self.item = "magma_cream"
         self.valueType = ValueType.VARIABLE
         self.variable.type = VariableType
