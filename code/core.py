@@ -1,5 +1,5 @@
 from enum import IntEnum
-
+from item import Item
 class CodeBlockType(IntEnum):
     
     PLAYER_EVENT = 0
@@ -25,5 +25,5 @@ class DiamondFireCodeBlock:
     def __init__(self, CodeBlockType, CodeAction):
         self.blocktype = CodeBlockType
         self.action = CodeAction
-    
+    chest = [Block(air)] * 27
     
