@@ -1,1 +1,62 @@
+//Plot And Server Events
 
+onJoin{} (JoinGame)
+onLeave{} (LeaveGame)
+command{} (Command)
+
+//Click Events
+
+rightClick{} rc{}
+leftClick{} lc{}
+clickEntity{} (Right Click Entity)
+clickPlayer{} (Right Click Player)
+placeBlock{} place{}
+breakBlock{} break{}
+swapHands{} swap{}
+changeSlot{} scroll{} (idk about "scroll{}")
+
+//Movement Events
+
+onWalk{} walk{}
+onJump{} jump{}
+onSneak{} sneak{}
+onUnsneak{} unsneak{}
+onSprint{} sprint{}
+onUnsprint{} unsprint{}
+startFly{} fly{}
+stopFly{}
+onRiptide{} ripTide{}
+onDismount{} dismount{}
+onHorseJump{} horseJump{}
+
+//Item Events
+
+clickGUI{} 
+clickInventory{} clickInven{}
+pickUpItem{} pickItem{}
+dropItem{}
+onConsume{} consume{} (Should we change this to eat?)
+breakItem{}
+closeMenu{} closeGUI{} (Is close GUI needed?)
+fish{}
+
+//Damage Events
+
+takeDamage{} damage{}
+pDamageP{} playerDamagePlayer{}
+pDamageE{} playerDamgeEntity{}
+eDamageP{} entityDamagePlayer{}
+onHeal{} heal{}
+shootBow{} (any possible shorthands?)
+throwProjectile{} throwProj{}
+projectileHit{} projHit{}
+projectileDamagePlayer{} projDamageP{}
+potionCloundImubeEffect{} potionCIE{} (someone make this shorthand better
+
+//Death Events
+
+die{} death{} onDie{}
+playerKillPlayer{} pKillP{}
+playerKillMob{} pKillM{} (should we change mob to entity?)
+mobKillPlayer{} mKillP{} (should we change mob to entity?)
+respawn{} onRespawn{}
