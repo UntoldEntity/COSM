@@ -1,0 +1,23 @@
+* = Optional
+# = Number
+"" = text
+@ = Tag
+~ = List
+
+
+//Item Management
+
+giveItem(Item, #Amount*)
+setHotbar(~Item)
+setInventory(~Item)
+setSlotItem(Item, #Slot)
+setEquipmentItem(Item, @Slot(Main Hand, Off Hand, Helmet, Chestplate, Leggings, Boots))
+setArmorItems(~Item)
+replaceItems(Item to Replace, Replace With Item, #Times to Replace)
+removeItems(~Item)
+clearItems(~Item)
+clearInventory(@Bool Crafting and Cursor, @ClearMode(Entire,Main,Upper,Hotbar,Armor))
+setCursorItem(Item*)
+saveInventory()
+loadInventory()
+setItemCooldown(Item, #Duration(Ticks))
