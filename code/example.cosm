@@ -1,0 +1,12 @@
+//prob gonna change in the future.
+
+PlayerEvent Join {
+  PlayerAction.SendMessage(AllPlayers, Color(#92f09a) + "+" + Color(Gray) + "|" + Color(#abf5b2) + "Welcome, %defautlt") 
+  PlayerAction.Teleport(Default, 25.5, 50, 25.5, KeepRotation)
+  PlayerAction.SetMaxHealth(Default, 12)
+  !IfVariable.Exists(%uuid PlayerID) {
+    VariableAction.Increment(MaxID, 1)
+    VariableAction.Set(%uuid PlayerID, MaxID)
+    PlayerAction.SendMessage(AllPlayers, Color(#abf5b2) + "%default Joined For The First Time!")
+  }
+}
