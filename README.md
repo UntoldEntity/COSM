@@ -1,13 +1,13 @@
 # COSM
 Coding language for a server in funny block game (DiamondFire).
 
-A custom coding language for a server in Minecraft (mcdiamondfire.com)
+A custom coding language for a minecraft server (mcdiamondfire.com)
 
 idk what to put here
 
-Socials{
+Socials {
 
-  Infernity {
+  Infernity/Inferno {
   
     Discord = Infernity#3671
     
