@@ -7,7 +7,7 @@ idk what to put here
 
 Socials {
 
-  Infernity {
+  Infernity/Inferno {
   
     Discord = Infernity#3671
     
