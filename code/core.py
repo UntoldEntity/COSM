@@ -7,6 +7,9 @@ class CodeBlockType(IntEnum):
     IF_PLAYER = 1000
     IF_ENTITY = 1001
     IF_VAR = 1002
+    IF_GAME = 1003
+    ELSE = 1004
+    REPEAT = 1005
     PLAYER_ACTION = 2000
     ENTITY_ACTION = 2001
     GAME_ACTION = 2002
@@ -14,9 +17,9 @@ class CodeBlockType(IntEnum):
     DECLARE_PROCESS = 3001
     CALL_FUNCTION = 3100
     CALL_PROCESS = 3101
-    PLAYER_EVENT = 0
-    PLAYER_EVENT = 0
-    PLAYER_EVENT = 0
+    SELECT_OBJECT = 4000
+    CONTROL = 4001 
+    SET_VARIABLE = 4002
 
 class DiamondFireCodeBlock:
     def __init__(self, CodeBlockType, CodeAction):
