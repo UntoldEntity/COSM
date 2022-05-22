@@ -37,3 +37,17 @@ tabListInfo(~Text, @Position(Header, Footer))
 playSound(~Sound, Location*, @SoundSource(I'm not going to write every catagory.))
 stopSound(~Sounds to stop, @SoundSource(I'm not doing it. I'm not writing them.))
 playSoundSeq(~Sound, #Delay(Ticks)*, Location*)
+
+//Inventory Menus
+
+showMenu(~Items*)
+expandMenu(~Items*)
+setMenuItem(#Slot, Item*)
+setMenuName(Text Name)
+addMenuRow(~Items, @RowPosition(Top,Bottom))
+removeMenuRow(#RowsToRemove*, @Position(Top,Bottom))
+closeMenu()
+openBlockInv(Location)
+
+
+
