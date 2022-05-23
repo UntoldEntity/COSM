@@ -72,3 +72,36 @@ setInvulTicks(#Ticks)
 setFallDist(#Distance)
 setMoveSpeed(#MovementSpeed%(1-1000), @Type(GroundSpeed, FlightSpeed, Both))
 
+//Settings
+
+setSurvival()
+setAdventure()
+setCreative()
+setSpectator()
+setAllowFlight(@True/False) < should this be 2 things?
+setAllowPvP(@True/False) < should this be 2 things?
+setDeathDrops(@True/False) < should this be 2 things?
+setKeepInven(@True/False) < should this be 2 things?
+setCollidable(@True/False) < should this be 2 things?
+allowBlocks() < Should this and line 87 be conjoined?
+disallowBlocks()
+setInstantRespawn() < should this be 2 things?
+setReducedDebugInfo(@TrueFalse) < should this be 2 things
+
+//Movement
+
+teleportPlayer(Location, @KeepRotation(True/False))
+launchPlayerUp(#Amount, @KeepCurrentVelocity(True/False))
+launchPlayerForward(#Amount, @AddToCurVel(True/False), @LaunchAxis(Pitch and Yaw, Yaw Only))
+lauchPlayerTowardLocation(Location, #Amount*, @AddToCurVel(True/False),@IgnoreDist(T/F))
+playerRideEntity(Text (Name/UUID of target) or None)
+setPlayerFlying(@True/False) < should this be 2 things?
+setPlayerGliding(@True/False) < should this be 2 things?
+boostElytra(Item (Firework))
+setPlayerRotation(#Pitch, #Yaw)
+playerFaceLocation(Location)
+setPlayerVelocity(Vector, @AddToCurVel(T/F))
+spectateTarget(Text (target UUID not name) or none)
+setSpawnPoint(Location or none(plot spawn))
+
+
